@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-04-20T13:45:59.074Z</updated>
+    <updated>2020-04-20T14:42:45.417Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, hjx的小窝</rights>
     <entry>
         <title type="html"><![CDATA[题解【P6101 出言不逊】]]></title>
-        <id>https://hjxhjx-hub.github.io/post/ti-jie-p6101-chu-yan-bu-xun/</id>
-        <link href="https://hjxhjx-hub.github.io/post/ti-jie-p6101-chu-yan-bu-xun/">
+        <id>https://hjxhjx-hub.github.io/post/P6101/</id>
+        <link href="https://hjxhjx-hub.github.io/post/P6101/">
         </link>
         <updated>2020-04-20T13:31:59.000Z</updated>
         <summary type="html"><![CDATA[<p>作为谔谔Round div.2的第一题，这题还是比较良心的。</p>
@@ -138,9 +138,14 @@ signed main(){
         <link href="https://hjxhjx-hub.github.io/post/about/">
         </link>
         <updated>2020-04-20T12:17:30.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
 </blockquote>
+<!-- more -->
 <h2 id="关于本站">🏠 关于本站</h2>
 <p>本站是博主心血来潮，用<a href="http://gridea.dev">Gridea</a>搭建的，在这里安利一下这款软件，超好用，把搭博客的门槛降低了许多👍👍</p>
 <p>本站所用的主题是<a href="http://github.com/hsxyhao/gridea-theme-next">NexT</a>，也超好看的😝</p>
