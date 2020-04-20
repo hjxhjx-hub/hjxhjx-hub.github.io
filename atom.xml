@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-04-20T13:43:50.250Z</updated>
+    <updated>2020-04-20T13:45:59.074Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://hjxhjx-hub.github.io/post/ti-jie-p6101-chu-yan-bu-xun/">
         </link>
         <updated>2020-04-20T13:31:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>作为谔谔Round div.2的第一题，这题还是比较良心的。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>作为谔谔Round div.2的第一题，这题还是比较良心的。</p>
+<!-- more -->
 <p>肥肠适合用来练习基础的<s>码字</s>思维能力。（然而<a href="http://www.luogu.com.cn/user/178480">这个lj</a>还是交满了几页提交记录，让我们一起来嘲讽他吧！）</p>
 <p>（话说语文王子看见这题有什么感受）</p>
 <p>（语文王子：谔我谔）</p>
