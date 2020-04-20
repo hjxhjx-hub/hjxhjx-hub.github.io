@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-04-20T03:56:36.468Z</updated>
+    <updated>2020-04-20T12:18:14.570Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://hjxhjx-hub.github.io/images/avatar.png</logo>
     <icon>https://hjxhjx-hub.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, hjx的小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://hjxhjx-hub.github.io/post/about/</id>
+        <link href="https://hjxhjx-hub.github.io/post/about/">
+        </link>
+        <updated>2020-04-20T12:17:30.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站是博主心血来潮，用<a href="http://gridea.dev">Gridea</a>搭建的，在这里安利一下这款软件，超好用，把搭博客的门槛降低了许多👍👍</p>
+<p>本站所用的主题是<a href="http://github.com/hsxyhao/gridea-theme-next">NexT</a>，也超好看的😝</p>
+<p>另外，域名是<strong>完全免费</strong>的<a href="http://pages.github.com">github page</a>，也是非常好用的😀</p>
+<p>而评论系统则使用的是基于Github Issue和Preact的经典评论插件<a href="http://github.com/gitalk/gitalk">gitalk</a>，也要安利一下👍</p>
+<p><s>一不小心就安利了四个项目了</s></p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>博主叫<strong>hjx</strong>，今年13岁，是一名菜鸡OIer</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<ul>
+<li>OI（C++党）</li>
+<li>Minecraft（PVP的红石党）</li>
+<li>二刺猿（珂学是第一生产力！）</li>
+</ul>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<h3 id="邮箱">📪邮箱</h3>
+<ul>
+<li>📧博主邮箱1：<a href="mailto:hjx__hjx2@163.com">hjx__hjx2@163.com</a></li>
+<li>📧博主邮箱2：<a href="mailto:hjx__hjx2@163.com">hjxhjx2@qq.com</a></li>
+</ul>
+<h3 id="账号">🔍账号：</h3>
+<p><strong>洛谷：</strong><br>
+<a href="http://www.luogu.com.cn/user/178480">178480</a><br>
+<a href="http://www.luogu.com.cn/user/320993">320993</a></p>
+<p><strong>QQ：</strong><br>
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=672837223&amp;site=qq&amp;menu=yes">672837223</a></p>
+<p><strong>B站：</strong><br>
+<a href="http://space.bilibili.com/446092525">446092525</a></p>
+<p><strong>github：</strong><br>
+<a href="http://github.com/hjxhjx-hub">hjxhjx-hub</a><br>
+<a href="http://github.com/hjxhjx2007">hjxhjx2007</a></p>
+<p><strong>知乎</strong><br>
+<a href="https://www.zhihu.com/people/hjxhjx-54">hjxhjx</a></p>
+<p><strong>mcbbs：</strong><br>
+<a href="http://www.mcbbs.net/home.php?mod=space&amp;uid=3148250">hjxhjx2</a></p>
+<p><strong>MC百科：</strong><br>
+<a href="http://www.mcmod.cn/center/52029">hjxhjx</a></p>
+<p><s>不知不觉注册了好多账号了呢</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://hjxhjx-hub.github.io/post/hello-gridea/</id>
