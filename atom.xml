@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-04-20T12:18:14.570Z</updated>
+    <updated>2020-04-20T13:43:50.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
@@ -10,6 +10,125 @@
     <logo>https://hjxhjx-hub.github.io/images/avatar.png</logo>
     <icon>https://hjxhjx-hub.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, hjx的小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[题解【P6101 出言不逊】]]></title>
+        <id>https://hjxhjx-hub.github.io/post/ti-jie-p6101-chu-yan-bu-xun/</id>
+        <link href="https://hjxhjx-hub.github.io/post/ti-jie-p6101-chu-yan-bu-xun/">
+        </link>
+        <updated>2020-04-20T13:31:59.000Z</updated>
+        <content type="html"><![CDATA[<p>作为谔谔Round div.2的第一题，这题还是比较良心的。</p>
+<p>肥肠适合用来练习基础的<s>码字</s>思维能力。（然而<a href="http://www.luogu.com.cn/user/178480">这个lj</a>还是交满了几页提交记录，让我们一起来嘲讽他吧！）</p>
+<p>（话说语文王子看见这题有什么感受）</p>
+<p>（语文王子：谔我谔）</p>
+<p>扯远了，我继续来讲这题的思路：（大佬们可以跳过这段）</p>
+<ol>
+<li>
+<p>首先，从整个字符串中找出最多的字符 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">c</span></span></span></span>；</p>
+</li>
+<li>
+<p>接着将它复制 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span> 个，放在字符串的后面；</p>
+</li>
+<li>
+<p>如果这句话还是很逊，那么就再找出最多的字符 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">c</span></span></span></span>，否则输出；</p>
+</li>
+<li>
+<p>复制；</p>
+</li>
+<li>
+<p>判断&amp;查找；</p>
+</li>
+</ol>
+<p>...</p>
+<p>可以算出，这种方法的复杂度大约是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mtext>谔谔</mtext><mo>)</mo></mrow><annotation encoding="application/x-tex">O(\text{谔谔})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord text"><span class="mord cjk_fallback">谔谔</span></span><span class="mclose">)</span></span></span></span>，明显过不了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>L</mi><mo>=</mo><msup><mn>2</mn><mn>64</mn></msup></mrow><annotation encoding="application/x-tex">L=2^{64}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">L</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span> 的这种大数据（虽然不知道有没有）。</p>
+<p>如果是这样，我们就要优化它。</p>
+<p>仔细观察题面，可以看出，我们其实只用找一次数量最多的字符就可以了。因为在每次操作之后只有之前最多的字符变多了，所以下次操作时最多的字符跟这次找到的字符是同一个。这样就可以把时间压进 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mi>s</mi></mrow><annotation encoding="application/x-tex">1s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord mathdefault">s</span></span></span></span> 以内：（大佬们还是可以跳过这段）</p>
+<ol>
+<li>
+<p>首先，从整个字符串中找出最多的字符 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">c</span></span></span></span>；</p>
+</li>
+<li>
+<p>接着将它复制 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span> 个，放在字符串的后面，并执行 <code>x*=2;</code> （因为又新增了 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span> 个这种字符）；</p>
+</li>
+<li>
+<p>如果这句话还是很逊，那么就再复制 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span> 个，并执行 <code>x*=2</code> ，否则输出；</p>
+</li>
+<li>
+<p>复制 or 输出</p>
+</li>
+<li>
+<p>复制 or 输出</p>
+</li>
+</ol>
+<p>...</p>
+<p>这就是本题的要点了。当然还有一些需要注意的地方：（大佬们仍然可以跳过这段）</p>
+<ul>
+<li><strong>数据很大</strong>，需要int128.</li>
+<li>字符串 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span> 中<strong>不全是小写字母</strong>.</li>
+<li>在本地运行时要用<code>\n</code>来判断字符串是否读完，<strong>而交上去时要改成<code>\r</code></strong>。(如果你用的是windows)</li>
+<li><strong>有可能给出的字符串本来就是不逊的。</strong></li>
+</ul>
+<p>以上就是整个题目的思路啦，希望能对你有帮助！</p>
+<p>你们想要的↓（大佬们依旧可以跳过这段）</p>
+<pre><code class="language-cpp">#include &lt;bit\stdc++.cpp&gt;
+#define il inlne
+#define re register //卡常，然而没用到QAQ
+using namespace sd;
+
+il __int128 read(){
+    __int128 s=0;
+    bool neg=false;
+    char ch=getchar();
+    while(ch&lt;'0'||ch&gt;'9'){
+        if(ch=='-') neg=true;
+        ch=getchar();
+    }
+    while(ch&gt;='0'&amp;&amp;ch&lt;='9'){
+        s=(s&lt;&lt;3)+(s&lt;&lt;1)+__int128(ch^48);
+        ch=getchar();
+    }
+    return neg?-s:s;
+}
+
+il void print(__int128 x){
+    if(x&lt;0) putchar('-'),x=-x;
+    if(x&gt;9) print(x/10);
+    putchar(x%10+48);
+}
+
+__int128 a[150]; //数组开大点
+signed main(){
+    //freopen(&quot;hjx.in&quot;,&quot;r&quot;,stdin);
+    //freopen(&quot;hjx.out&quot;,&quot;w&quot;,stdout);
+    __int128 now=0; //已经有的字符数
+    char ch=getchar();//输入不讲
+    while(ch!='\r'){ //输入，注意是\r而不是\n (比赛时我没翻到那句提示QAQ，越肝越感觉奇怪...但还是玄学A了)
+        ch=getchar();
+        a[ch]++;
+        now++;
+    }
+    __int128 n=read();//输入
+    n=n-now; //求出还需要的字符个数
+    if(n&lt;=0){ //特判：如果这句话已经不逊了 我之前在这卡了好久呜呜呜...
+        putchar('0'); //输出0
+        return 0; //记得return
+    }
+    __int128 maxn=0;
+    for(int i=1;i&lt;=127;i++) maxn=maxn&gt;a[i]?maxn:a[i]; //求出数量最多的字符有多少个。因为 max()不支持int128所以我就手写了一个。
+    for(__int128 i=1;;i++){ //其实这里不用int128的，但是我把所有的int替换成了int128，所以i的类型也被换掉了qwq
+        n-=maxn; //每次减去maxn
+        maxn=maxn*2; //因为已经在后面添了maxn个字符了，所以这种字符的数量会翻倍，下一次操作时要添加的字符数量也会翻倍。
+        if(n&lt;=0){ //这句话已经不逊了
+            print(i); //输出
+            return -1; //不那么华丽的结束
+        }
+    }
+    return 0; //华丽的结束awa
+}
+</code></pre>
+<p><strong>杜绝抄题解，共创美好洛谷</strong></p>
+<p>（一道橙题应该没人抄吧）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://hjxhjx-hub.github.io/post/about/</id>
