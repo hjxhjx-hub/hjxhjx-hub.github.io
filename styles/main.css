@@ -2005,7 +2005,7 @@ blockquote {
       border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eeeeeecc;
+      background: #eeeeeee5;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2049,11 +2049,11 @@ blockquote {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #f9f9f9cc;
+      background: #f9f9f9e5;
     }
 
     .nav-item:hover {
-      background: #f9f9f9cc;
+      background: #f9f9f9e5;
       color: rgba(0, 0, 0, 0.98);
     }.site-author-image {
       border-radius: 50%;
@@ -2089,7 +2089,7 @@ blockquote {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #ffffffcc;
+      background-color: #ffffffe5;
     }
     .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
       border-radius: 5px;
@@ -2104,13 +2104,13 @@ blockquote {
         background: #000 !important;
       }
     .brand {
-      background: #000000cc;
+      background: #000000e5;
     }
     .main-title {
       color: #FFF;
     }
     .mist .site-title i {
-      background: #FFFFFFcc;
+      background: #FFFFFFe5;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }
