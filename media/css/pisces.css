@@ -109,12 +109,24 @@
 }
 
 .site-author-image {
+  border-radius: 50%;
   display: block;
   margin: 0 auto;
   padding: 2px;
   height: auto;
   background-color: #FFF;
   border: 1px solid #eee;
+  transition: all 1.2s;
+  cursor:pointer;
+}
+
+.site-author-image:hover {
+  transform: rotate(360deg);
+  
+}
+
+.about-hjxhjx{
+    cursor:auto;
 }
 
 .pisces {

@@ -809,7 +809,26 @@ blockquote {
   background-color: #FFF;
 }
 .cloud-tag {
+  position: relative;
+  text-decoration: none;
   opacity: 0;
+}
+.cloud-tag::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: currentColor;
+  transform: scale(0);
+  transition: all 0.35s;
+}
+.cloud-tag:hover::after {
+  transform: scale(1);
+}
+.cloud-tag::after {
+  transform-origin: center;
 }
 .tag-cloud-title {
   text-align: center;
@@ -2055,15 +2074,6 @@ blockquote {
     .nav-item:hover {
       background: #f9f9f9e5;
       color: rgba(0, 0, 0, 0.98);
-    }.site-author-image {
-      border-radius: 50%;
-    }
-    .site-author-image:hover {
-      transform: rotate(666turn);
-      transition-delay: 1s;
-      transition-property: all;
-      transition-duration: 59s;
-      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
       color: #495057;
       border-bottom-color: #495057;
