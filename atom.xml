@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-05-07T14:34:09.570Z</updated>
+    <updated>2020-05-14T14:33:59.997Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
@@ -147,10 +147,10 @@ signed main(){
 </blockquote>
 <!-- more -->
 <h2 id="关于本站">🏠 关于本站</h2>
-<p>本站是博主心血来潮，用<a href="http://gridea.dev">Gridea</a>搭建的，在这里安利一下这款软件，超好用，把搭博客的门槛降低了许多👍👍</p>
-<p>本站所用的主题是<a href="http://github.com/hsxyhao/gridea-theme-next">NexT</a>，也超好看的😝</p>
-<p>另外，域名是<strong>完全免费</strong>的<a href="http://pages.github.com">github page</a>，也是非常好用的😀</p>
-<p>而评论系统则使用的是基于Github Issue和Preact的经典评论插件<a href="http://github.com/gitalk/gitalk">gitalk</a>，也要安利一下👍</p>
+<p>本站是博主心血来潮，用<a href="https://gridea.dev">Gridea</a>搭建的，在这里安利一下这款软件，超好用，把搭博客的门槛降低了许多👍👍</p>
+<p>本站所用的主题是<a href="https://github.com/hsxyhao/gridea-theme-next">NexT</a>，也超好看的😝</p>
+<p>另外，域名是<strong>完全免费</strong>的<a href="https://pages.github.com">github page</a>，也是非常好用的😀</p>
+<p>而评论系统则使用的是基于Github Issue和Preact的经典评论插件<a href="https://github.com/gitalk/gitalk">gitalk</a>，也要安利一下👍</p>
 <p><s>一不小心就安利了四个项目了</s></p>
 <h2 id="博主是谁">👨‍💻 博主是谁</h2>
 <p>博主叫<strong>hjx</strong>，今年13岁，是一名菜鸡OIer</p>
@@ -158,7 +158,7 @@ signed main(){
 <ul>
 <li>OI（C++党）</li>
 <li>Minecraft（PVP的红石党）</li>
-<li>二刺猿（珂学是第一生产力！）</li>
+<li><s>二刺猿（/jk/jk，伪珂学家被发现了QAQ）</s></li>
 </ul>
 <h2 id="联系我呀">📬 联系我呀</h2>
 <h3 id="邮箱">📪邮箱</h3>
@@ -183,7 +183,7 @@ signed main(){
 <a href="http://www.mcbbs.net/home.php?mod=space&amp;uid=3148250">hjxhjx2</a></p>
 <p><strong>MC百科：</strong><br>
 <a href="http://www.mcmod.cn/center/52029">hjxhjx</a></p>
-<p><s>不知不觉注册了好多账号了呢</s></p>
+<p><s>不知不觉注册了好多账号了</s></p>
 ]]></content>
     </entry>
     <entry>
