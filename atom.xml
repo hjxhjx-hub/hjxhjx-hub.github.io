@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hjxhjx-hub.github.io/</id>
     <title>hjx的小窝</title>
-    <updated>2020-05-14T14:33:59.997Z</updated>
+    <updated>2021-02-16T04:59:42.615Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hjxhjx-hub.github.io/"/>
     <link rel="self" href="https://hjxhjx-hub.github.io/atom.xml"/>
     <subtitle>Think twice, code once</subtitle>
     <logo>https://hjxhjx-hub.github.io/images/avatar.png</logo>
     <icon>https://hjxhjx-hub.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, hjx的小窝</rights>
+    <rights>All rights reserved 2021, hjx的小窝</rights>
     <entry>
         <title type="html"><![CDATA[题解【P6101 出言不逊】]]></title>
         <id>https://hjxhjx-hub.github.io/post/P6101/</id>
@@ -156,20 +156,19 @@ signed main(){
 <p>博主叫<strong>hjx</strong>，今年13岁，是一名菜鸡OIer</p>
 <h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
 <ul>
-<li>OI（C++党）</li>
-<li>Minecraft（PVP的红石党）</li>
-<li><s>二刺猿（/jk/jk，伪珂学家被发现了QAQ）</s></li>
+<li>OI（C++）</li>
+<li>Minecraft（然而玩了几年还是什么都不会qwq）</li>
+<li>二刺猿（你指尖跃动的电光……）</li>
 </ul>
 <h2 id="联系我呀">📬 联系我呀</h2>
 <h3 id="邮箱">📪邮箱</h3>
 <ul>
-<li>📧博主邮箱1：<a href="mailto:hjx__hjx2@163.com">hjx__hjx2@163.com</a></li>
-<li>📧博主邮箱2：<a href="mailto:hjxhjx2@qq.com">hjxhjx2@qq.com</a></li>
+<li>📧邮箱1：<a href="mailto:hjx__hjx2@163.com">hjx__hjx2@163.com</a></li>
+<li>📧邮箱2：<a href="mailto:hjxhjx2@qq.com">hjxhjx2@qq.com</a></li>
 </ul>
 <h3 id="账号">🔍账号：</h3>
 <p><strong>洛谷：</strong><br>
-<a href="http://www.luogu.com.cn/user/178480">178480</a><br>
-<a href="http://www.luogu.com.cn/user/320993">320993</a></p>
+<a href="http://www.luogu.com.cn/user/178480">178480</a></p>
 <p><strong>QQ：</strong><br>
 <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=672837223&amp;site=qq&amp;menu=yes">672837223</a></p>
 <p><strong>B站：</strong><br>
@@ -177,8 +176,6 @@ signed main(){
 <p><strong>github：</strong><br>
 <a href="http://github.com/hjxhjx-hub">hjxhjx-hub</a><br>
 <a href="http://github.com/hjxhjx2007">hjxhjx2007</a></p>
-<p><strong>知乎</strong><br>
-<a href="https://www.zhihu.com/people/hjxhjx-54">hjxhjx</a></p>
 <p><strong>mcbbs：</strong><br>
 <a href="http://www.mcbbs.net/home.php?mod=space&amp;uid=3148250">hjxhjx2</a></p>
 <p><strong>MC百科：</strong><br>
