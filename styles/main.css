@@ -842,9 +842,9 @@ blockquote {
   display: inline-block;
   margin: 10px;
 }
-.tag-cloud-list a:hover {
+/*.tag-cloud-list a:hover {
   border-bottom: 1px solid #222;
-}
+}*/
 .tag-timeline-wrapper .tag-timeline-title::before {
   content: " ";
   position: absolute;
