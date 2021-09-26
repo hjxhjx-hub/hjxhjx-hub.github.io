@@ -116,13 +116,12 @@
   height: auto;
   background-color: #FFF;
   border: 1px solid #eee;
-  transition: all 1.2s;
+  transition: all 1.2s !important;
   cursor:pointer;
 }
 
 .site-author-image:hover {
-  transform: rotate(360deg);
-  
+  transform: rotate(360deg) !important;
 }
 
 .about-hjxhjx{
